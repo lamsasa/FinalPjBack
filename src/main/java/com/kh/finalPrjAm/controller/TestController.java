@@ -15,6 +15,6 @@ public class TestController {
     }
     @GetMapping(value = "request1")
     public String getRequestParam(@RequestParam String user,@RequestParam String name, @RequestParam String email) {
-        return user + " " + email + " " + email;
+        return user + " " + name + " " + email;
     }
 }
